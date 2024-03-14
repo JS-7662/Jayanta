@@ -13,6 +13,7 @@ btn.addEventListener("click", function () {
         btn.innerHTML = "Unfriend"
         btn.classList.add("btn-Margin-1")
         btn.classList.remove("btn-Margin-2")
+        btn.classList.remove("btn-Margin-3")
     } else {
         i = 0
         friend.innerHTML = ""
