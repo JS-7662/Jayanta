@@ -1,4 +1,75 @@
-body{
-    background-color: red;
-    
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDiv {
+    box-shadow: 0px 0px 5px 0px rgb(34, 135, 229);
+    border-radius:0.5rem;
+    background-color: #ffffff;
+    display: fle;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 1rem 0 0 0;
+    height: 30rem;
+    width: 25rem;
+}
+
+.img {
+    background: url(profilePic.jpg);
+    background-size: cover;
+    border-radius: 0.5rem;
+    width: 15rem;
+    height: 20rem;
+    margin:auto;
+}
+.img:hover{
+    /* outline: blue solid ; */
+    box-shadow: 0px 0px 5px 0px rgb(34, 135, 229);
+}
+.fri {
+    /*position: absolute;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px rgb(34, 135, 229);
+    height: 2rem;
+    width: 15rem;
+    top: 27.2rem;
+    margin-top:1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 0.5rem;
+}
+.btn {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow: 0px 0px 5px 0px rgb(34, 135, 229);
+    height: 2rem;
+    width: 15rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.btn-Margin-1{
+    margin-top: 1rem;
+}
+.btn-Margin-2{
+    margin-top: 4rem;
 }
